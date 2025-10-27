@@ -20,8 +20,10 @@ clang -lc -framework AudioToolbox NotePlayer.c -o NotePlayer
 ./NotePlayer <frequency> <octave difference> <up(0)/down(1)> <optional: volume(1-100)>
 ```
 
+Ex for one octave above middle C: 
+
 ```
-Ex for one octave above middle C: ./NotePlayer 261.6 1 0
+./NotePlayer 261.6 1 0
 ```
 
 ## Authors
